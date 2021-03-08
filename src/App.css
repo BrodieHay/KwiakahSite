@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+/* Container holding the image and the text */
+.container {
+  position: absolute;
+}
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  font-size: calc(30px + 2vmin);
+  color: white;
+}
+/* Center right text */
+.center-right {
+  position:absolute;
+  bottom: 100px;
+  left: 1300px;
+  color: white;
+}
