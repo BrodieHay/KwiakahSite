@@ -48,10 +48,10 @@
   font-size: calc(30px + 2vmin);
   color: white;
 }
-/* Center right text */
-.center-right {
-  position:absolute;
-  bottom: 100px;
-  left: 1300px;
-  color: white;
+/* Bottom right text */
+.bottom-right {
+  position: fixed;
+  top: calc(10px + 2vmin);
+  right: calc(10px + 2vmin);
+  max-width: 200px;
 }

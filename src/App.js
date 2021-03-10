@@ -1,10 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 // Import the BrowserRouter, Route and Link components
 import HeaderImage from './static/headerimage.jpg';
 import Logo from './static/logo.png';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
-import { Navbar, Image, NavDropdown, Nav, Form, FormControl, Button, NavItem } from 'react-bootstrap';
+import { Navbar, Image, NavDropdown, Nav, Form} from 'react-bootstrap';
 import About from './About.js';
 import Treaty from './Treaty.js';
 import Woodlots from './Woodlots.js';
@@ -20,6 +19,7 @@ function App() {
       <Image src={HeaderImage} fluid />
       <div className="container">
         <div className="bottom-left">Kwiakah First Nation</div>
+        <Image className="bottom-right d-none d-md-block" src={Logo} fluid />
       </div>
 
       <Navbar bg="light" expand="sm">
