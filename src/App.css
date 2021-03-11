@@ -40,18 +40,25 @@
 .container {
   position: absolute;
 }
-/* Bottom left text */
-.bottom-left {
+/* Top left text */
+.top-left {
   position: absolute;
-  bottom: 16px;
+  top: 16px;
   left: 16px;
   font-size: calc(30px + 2vmin);
   color: white;
 }
-/* Bottom right text */
-.bottom-right {
-  position: fixed;
-  top: calc(10px + 2vmin);
-  right: calc(10px + 2vmin);
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
   max-width: 200px;
+  height: auto;
+  width: auto\9;
+}
+
+.header-image {
+  position:relative;
+
 }

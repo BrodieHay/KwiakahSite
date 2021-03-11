@@ -6,7 +6,7 @@ import {Figure} from 'react-bootstrap';
 function About(props) {
   return (
     <div>
-      <div className="row mx-3">
+      <div className="row mx-3 mt-3 align-items-center">
         <div className="col mx-3">
           Kwiakah First Nation are Lekwala speaking peoples. The Kwiakah are identified as part of the Laich-Kwil-Tach. The Laich-Kwil-Tach are the southernmost speakers of this northern Wakashan language. The traditional material culture, subsistence, social organization, religious and ceremonial practices of the Kwakw ak a’wakw were extensively documented in the late 19th and early 20th century by Franz Boas. Kwiakah First Nation entered the Treaty Process in February 1994, and is now in Stage 4 of the six-stage process “Negotiating an agreement in principle” (AIP). The goal of stage 4 is to reach the major agreements that will form the basis of the treaty. The Nation is represented in Treaty negotiations by the Hamatla Treaty Society. Also, the Kwiakah are member of the Nanwakolas Council and the Kwakuitl District Council.
         </div>
@@ -22,7 +22,7 @@ function About(props) {
           </Figure>
         </div>
       </div>
-      <div className="row mx-3">
+      <div className="row mx-3 mt-3 align-items-center">
         <div className="col mx-3">
           <Figure>
             <Figure.Image
